@@ -1,5 +1,5 @@
 # control-direction-withGo
-Hello every one! This project is to control a rover that explore Mars planet.the mission control
+Hello every one! This project is to control a rover that explore Mars planet.The mission control
 already gave us a rover instructions to move into specific directions and positions.
 # Rules
 Step1: Write a code that read a file in specific format.<br />
