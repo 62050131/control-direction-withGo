@@ -1,7 +1,7 @@
 # control-direction-withGo
 Hello every one! This project is to control a rover that explore Mars planet.the mission control
 already gave us a rover instructions to move into specific directions and positions.
-# instructions
+# Rules
 Step1: Write a code that read a file in specific format.<br />
 &nbsp;&nbsp;&nbsp;&nbsp;a. First line will always be a size of a maps represent in integer only.<br />
 &nbsp;&nbsp;&nbsp;&nbsp;b. After that will be an instruction to move or rotate.<br />
@@ -18,7 +18,7 @@ Step4: Rover should always report a current direction and position in format of 
 &nbsp;&nbsp;&nbsp;&nbsp;c. W for West<br />
 &nbsp;&nbsp;&nbsp;&nbsp;d. S for South<br />
 Step5: If rover reaching the edge it must maintain the direction and position.<br />
-# Example In/Out put
+# Example Input/Output
 ![image](https://user-images.githubusercontent.com/105012524/168476762-cbf808b8-feeb-4bf3-a185-9430495e7bdd.png)<br />
 
 Here is the reference for read text file in Golang<br />
