@@ -9,12 +9,7 @@ import (
 )
 
 func main() {
-	// x := 0
-	// y := 0
-	// current := 0
-	// size := ""
-	// space := 0
-
+	
 	ReadFile()
 
 }
@@ -54,7 +49,7 @@ func ReadFile() {
 	if err := scanner.Err(); err != nil {
 		log.Fatal(err)
 	}
-	// fmt.Println(StringToInt(size))
+	
 
 }
 
@@ -66,7 +61,7 @@ func StringToInt(size string) int {
 }
 
 //define movement from direction
-func Moving(arrText []string, space int) (int, int, int) {
+func Moving(arrText []string, space int)  {
 
 	turn := "N"
 	arrDirect := [4]string{"N", "E", "S", "W"}
@@ -114,7 +109,7 @@ func Moving(arrText []string, space int) (int, int, int) {
 		}
 	}
 	fmt.Printf(" %s:%d,%d\n", turn, x, y)
-	return x, y, current
+	
 }
 
 //limit x within space map
